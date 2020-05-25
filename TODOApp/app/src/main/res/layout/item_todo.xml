@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:weightSum="3">
+
+    <CheckBox
+        android:id="@+id/cbIsDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="24dp"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/TodoItemNameTextView"
+        android:layout_width="0dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        tools:text="TODO" />
+
+    <Button
+        android:id="@+id/TodoItemRemoveButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_weight="1"
+        android:text="@string/remove" />
+
+</LinearLayout>

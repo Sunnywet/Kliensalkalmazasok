@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TODOApp</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="remove">Remove</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_edit">Add/Edit TODO</string>
+    <string name="edit">Edit TODO</string>
+    <string name="new_todo">New TODO</string>
+    <string name="new_todo_hint">TODO</string>
+
+    <string name="task">Task:</string>
+    <string name="description">Description:</string>
+    <string name="details">Details of %s</string>
+    <string name="due">Due:</string>
+    <string name="stat">Statistics</string>
+</resources>
